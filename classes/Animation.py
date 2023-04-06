@@ -19,6 +19,7 @@ class Animation:
 
     def idle(self):
         self.image = self.idleSprite
+        print("hi")
 
     def inAir(self):
         self.image = self.airSprite
